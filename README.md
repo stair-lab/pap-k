@@ -31,3 +31,16 @@
 * The command 'python3 auc-rel-k-cross-validation.py k dataset surrogate': runs cross validation on a particular k-value, dataset, and surrogate. Takes k value, dataset name, and surrogate name as parameters and saves logs on training and validation datasets. Choose the best parameters for each surrogate and use them in 'auc-rel-k-run.py' file.
 
 * The command 'python3 auc-rel-k-run.py k dataset': trains all surrogates on a particular k-value and dataset (Use the best parameter values in the train function that are obtained from results of auc-rel-k-cross-validation.py for each surrogate and dataset). Takes the k value and dataset as inputs and saves logs on training and testing datasets.
+
+## Citation
+
+If you use this code, please cite the our paper from ICML'20.
+
+@inproceedings{hiranandani2020optimization,
+  title={Optimization and Analysis of the pAp@ k Metric for Recommender Systems},
+  author={Hiranandani, Gaurush and Vijitbenjaronk, Warut and Koyejo, Sanmi and Jain, Prateek},
+  booktitle={International Conference on Machine Learning},
+  pages={4260--4270},
+  year={2020},
+  organization={PMLR}
+}
